@@ -3,6 +3,7 @@ import Component from './components/1.comp/Component'
 import ProfileCard from './components/2.props/ProfileCard'
 import ConditionalRender from './components/3.conditonalRender/ConditionalRender'
 import List from './components/4.list/List'
+import Style from './components/5.style/Style'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
     {/* <Component/>
     <ProfileCard/> */}
     {/* <ConditionalRender/> */}
-    <List/>
+    {/* <List/> */}
+    <Style/>
     </div>
   )
 }
