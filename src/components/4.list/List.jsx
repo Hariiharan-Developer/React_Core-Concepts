@@ -45,13 +45,13 @@ const List = () => {
         {arrayObj.map((data,index)=><li key={index}>im {data.brand}  {data.color} car</li>) }
         <hr/>
         <h3>mixed obj & array :</h3>
-        {<p>name:{mixedData.name}</p>}
-        {<p>course:{mixedData.course}</p>}
-        {<p>education:{mixedData.education}</p>}
-        <p>skills:</p>
+        {<li>name:{mixedData.name}</li>}
+        {<li>course:{mixedData.course}</li>}
+        {<li>education:{mixedData.education}</li>}
+        <h4>skills:</h4>
         {mixedData.key.map((value,index)=><li key={index}>{value}</li>)}
         <hr/>
-        {singleObj.map((value,index)=><p key={index}>{value}</p>)}
+        {singleObj.map((value,index)=><li key={index}>{value}</li>)}
         </div>
       </div>
     </div>
