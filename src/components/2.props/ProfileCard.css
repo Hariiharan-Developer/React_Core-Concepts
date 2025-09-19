@@ -1,9 +1,17 @@
-.container{
-    background: tomato;
-   display: flex;
-   flex-direction: column;
-}
-.content{
-    border: 2px solid;
+.example{
+    background: green;
+    color: black;
+    padding: 10px 15px;
     border-radius: 6px;
+    width: 50%;
+    
+
+}
+.list{
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 6px;
+    align-items: center;
+    
 }
