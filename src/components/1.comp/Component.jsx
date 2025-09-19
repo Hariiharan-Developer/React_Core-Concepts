@@ -6,6 +6,7 @@ import Kitchen from './Kitchen'
 const Component = () => {
   return (
     <div className='content'>
+      <h1>1.Components</h1>
         <div className="component">
             <h1> 1.Example For Components</h1>
             <p>Main Component</p>

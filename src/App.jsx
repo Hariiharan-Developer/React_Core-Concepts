@@ -5,7 +5,7 @@ import ProfileCard from './components/2.props/ProfileCard'
 const App = () => {
   return (
     <div>
-    {/* <Component/> */}
+    <Component/>
     <ProfileCard/>
     </div>
   )

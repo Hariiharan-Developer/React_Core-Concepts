@@ -15,7 +15,7 @@ const ProfileCard = () => {
     const role = 'full stack dev'
   return (
     <div>
-      <h2>Profile card</h2>
+      <h1>2.Prop's Examples : with profile card</h1>
       <ProfileData name ={name} role={role} location={'coimbatore'}/>
       <PropObj data={data}/>
     </div>
