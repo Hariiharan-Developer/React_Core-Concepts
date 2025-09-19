@@ -4,6 +4,8 @@ import ProfileCard from './components/2.props/ProfileCard'
 import ConditionalRender from './components/3.conditonalRender/ConditionalRender'
 import List from './components/4.list/List'
 import Style from './components/5.style/Style'
+import State from './components/6.state/State'
+
 
 const App = () => {
   return (
@@ -12,7 +14,8 @@ const App = () => {
     <ProfileCard/> */}
     {/* <ConditionalRender/> */}
     {/* <List/> */}
-    <Style/>
+    {/* <Style/> */}
+   <State/>
     </div>
   )
 }
