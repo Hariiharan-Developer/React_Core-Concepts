@@ -17,6 +17,7 @@
     border-radius: 6px;
     padding: 10px 10px;
     margin-bottom: 10px;
+ 
 }
 .kitchen{
     background: rgb(206, 145, 145);
@@ -30,4 +31,16 @@
 }
 p{
     font-weight: 600;
+}
+.pooja-room{
+    background: rgba(180, 196, 106);
+    border-radius: 6px;
+    padding: 10px 10px;
+   margin-bottom: 10px;
+}
+.tv{
+    background: rgba(180, 196, 106);
+    border-radius: 6px;
+    padding: 10px 10px;
+    
 }

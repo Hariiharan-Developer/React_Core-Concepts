@@ -1,5 +1,8 @@
 import React from 'react'
 import './Component.css'
+import Explanation from './Explanation'
+import Hall from './Hall'
+import Kitchen from './Kitchen'
 const Component = () => {
   return (
     <div className='content'>
@@ -20,38 +23,6 @@ const Component = () => {
       
     </div>
   )
-}
-
-const Explanation = ()=>{
-    return(
-        <div className='explanation'>
-        <h2>Name:Explanation</h2>
-        <p>Component-1</p>
-        <h4>The HALL & KITCHEN are the components those 2 components are mountend inside the Component Element</h4>
-        </div>
-    )
-}
-
-
-
-const Hall = ()=>{
-    return(
-        <div className='hall'>
-        <h2>Name:Hall</h2>
-        <p>Component-2</p>
-        <p>Hello i'm HALL visit me , to spent time with family</p>
-        </div>
-    )
-}
-
-const Kitchen = ()=>{
-    return(
-        <div className='kitchen'>
-        <h2>Name:Kitchen</h2>
-        <p>Component-3</p>
-        <p>helo this is kitchen , make a dining full the responce is mine</p>
-        </div>
-    )
 }
 
 export default Component
