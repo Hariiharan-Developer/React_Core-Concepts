@@ -1,0 +1,9 @@
+.container{
+    background: tomato;
+   display: flex;
+   flex-direction: column;
+}
+.content{
+    border: 2px solid;
+    border-radius: 6px;
+}
