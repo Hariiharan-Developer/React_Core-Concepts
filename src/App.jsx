@@ -5,6 +5,7 @@ import ConditionalRender from './components/3.conditonalRender/ConditionalRender
 import List from './components/4.list/List'
 import Style from './components/5.style/Style'
 import State from './components/6.state/State'
+import MultipleState from './components/7.multipleState/MultipleState'
 
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
     {/* <ConditionalRender/> */}
     {/* <List/> */}
     {/* <Style/> */}
-   <State/>
+   {/* <State/> */}
+   <MultipleState/>
     </div>
   )
 }
