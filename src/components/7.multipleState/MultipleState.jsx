@@ -25,7 +25,9 @@ const MultipleState = () => {
 
 
   return (
+    
     <div>
+    
       <h1>7.(I) Multiple State Example</h1>
       <div className="container">
         <div className="content" >

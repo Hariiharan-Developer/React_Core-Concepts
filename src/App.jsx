@@ -8,6 +8,8 @@ import State from './components/6.state/State'
 import MultipleState from './components/7.multipleState/MultipleState'
 import ArrayState from './components/8.arrayState/ArrayState'
 import TaskHobbie from './components/9.taskForArray&Obj/TaskHobbie'
+import Score from './components/10.scoreTask/Score'
+import Test from './components/11.test/Test'
 
 
 const App = () => {
@@ -21,7 +23,9 @@ const App = () => {
    {/* <State/> */}
    {/* <MultipleState/> */}
    {/* <ArrayState/> */}
-   <TaskHobbie/>
+   {/* <TaskHobbie/> */}
+   {/* <Score/> */}
+   <Test/>
        </div>
   )
 }
