@@ -6,6 +6,7 @@ import List from './components/4.list/List'
 import Style from './components/5.style/Style'
 import State from './components/6.state/State'
 import MultipleState from './components/7.multipleState/MultipleState'
+import ArrayState from './components/8.arrayState/ArrayState'
 
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
     {/* <List/> */}
     {/* <Style/> */}
    {/* <State/> */}
-   <MultipleState/>
+   {/* <MultipleState/> */}
+   <ArrayState/>
     </div>
   )
 }
