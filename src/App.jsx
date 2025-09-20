@@ -7,6 +7,7 @@ import Style from './components/5.style/Style'
 import State from './components/6.state/State'
 import MultipleState from './components/7.multipleState/MultipleState'
 import ArrayState from './components/8.arrayState/ArrayState'
+import TaskHobbie from './components/9.taskForArray&Obj/TaskHobbie'
 
 
 const App = () => {
@@ -19,8 +20,9 @@ const App = () => {
     {/* <Style/> */}
    {/* <State/> */}
    {/* <MultipleState/> */}
-   <ArrayState/>
-    </div>
+   {/* <ArrayState/> */}
+   <TaskHobbie/>
+       </div>
   )
 }
 
