@@ -11,6 +11,7 @@ import TaskHobbie from './components/9.taskForArray&Obj/TaskHobbie'
 import Score from './components/10.scoreTask/Score'
 import Test from './components/11.test/Test'
 import UseEffect from './components/12.useEffect/UseEffect'
+import Form from './components/13.form/Form'
 
 
 const App = () => {
@@ -27,7 +28,8 @@ const App = () => {
    {/* <TaskHobbie/> */}
    {/* <Score/> */}
    {/* <Test/> */}
-   <UseEffect/>
+   {/* <UseEffect/> */}
+   <Form/>
        </div>
   )
 }
