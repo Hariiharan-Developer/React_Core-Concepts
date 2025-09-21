@@ -8,11 +8,11 @@ const Form = () => {
     const [femail,setFemail] = useState('')
     const [fpassword,setFpassword] = useState('')
     const [user,setUser] = useState('')
-    const [userInfo,setUserInfo] = useState({})
+    const [userInfo,setUserInfo] = useState({uphone:'+91',uemail:'@gmail.com',about:'im a student'})
   
     
-    const submit = ()=>{
-      event.preventDefault()
+    const submit = (e)=>{
+      e.preventDefault()
      setSubmitName(name)
     }
    
@@ -33,10 +33,10 @@ const Form = () => {
     //handle submit :
 
     const handleSubmit =(e)=>{
-      const uName = e.target.name 
+      const name = e.target.name 
       const value = e.target.value
 
-      setUserInfo((previos)=>{return{...previos,[uName]:value}})
+      setUserInfo((previos)=>{return{...previos,[name]:value}})
     }
   return (
     <div>
@@ -72,8 +72,18 @@ const Form = () => {
       <div className="content">
         <form action="" onSubmit={userSubmit}>
           <input name='uname'  type="text"  placeholder='enter name' onChange={handleSubmit}/><br/>
-          <input name='uemail'  type="text" placeholder='enter email' onChange={handleSubmit}/><br/>
+          <input name='uemail'  type="text" placeholder='enter email' style={{textTransform:'lowercase'}} value={userInfo.uemail} onChange={handleSubmit}/><br/>
           <input name='upassword'  type="text" placeholder='password' onChange={handleSubmit}/><br/>
+          <input name='uphone'  type="text" placeholder='phone'value={userInfo.uphone} onChange={handleSubmit}/><br/>
+          <label htmlFor="">select country : 
+            <select name='country' style={{padding:'10px 10px',backgroundColor:'white',color:'black',margin:'5px 5px'}} onChange={handleSubmit}>
+            <option value="">Select</option>
+          <option value="india">INDIA</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          </select></label>
+          <br/>
+          <label htmlFor="">about you : <textarea style={{backgroundColor:'white',color:'black',padding:'10px 20px',borderRadius:'5px'}} onChange={handleSubmit} name='about' value={userInfo.about}/></label><br/>
           <button>submit</button>
         </form>
       </div>
