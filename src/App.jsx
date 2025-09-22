@@ -14,6 +14,8 @@ import UseEffect from './components/12.useEffect/UseEffect'
 import Form from './components/13.form/Form'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Home'
+import OldBook from './components/14.nestedRoute/OldBook'
+import NewBook from './components/14.nestedRoute/NewBook'
 
 
 const App = () => {
@@ -36,6 +38,10 @@ const App = () => {
         <Route path='/test' element={<Test/>}/>
         <Route path='/useEffect' element={<UseEffect/>}/>
         <Route path='/form' element={<Form/>}/>
+        <Route path='/books'>
+        <Route path='oldbooks' element={<OldBook/>}/>
+        <Route path='newbooks' element={<NewBook/>}/>
+        </Route>
       </Routes>
       </BrowserRouter>
        </div>

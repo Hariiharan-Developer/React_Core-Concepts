@@ -19,6 +19,8 @@ const Home = () => {
       <li><Link to='/test'>test</Link></li>
       <li><Link to='/useEffect'>useEffect</Link></li>
       <li><Link to='/form'>form</Link></li>
+      <li><Link to='/books/oldbooks'>old book</Link></li>
+      <li><Link to='/books/newbooks'>new books</Link></li>
       </ol>
     </div>
   )
