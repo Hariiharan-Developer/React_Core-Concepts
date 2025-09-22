@@ -18,6 +18,7 @@ import OldBook from './components/14.nestedRoute/OldBook'
 import NewBook from './components/14.nestedRoute/NewBook'
 import Dashboard from './components/15.login/Dashboard'
 import Login from './components/15.login/Login'
+import RoutePara from './components/16.route-parameter/RoutePara'
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
         </Route>
         <Route path='/login' element={<Login/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/user/:id' element={<RoutePara/>}/>
       </Routes>
       </BrowserRouter>
        </div>

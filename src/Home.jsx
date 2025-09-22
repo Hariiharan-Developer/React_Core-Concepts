@@ -23,6 +23,8 @@ const Home = () => {
       <li><Link to='/books/newbooks'>new books</Link></li>
       <li><Link to='/login'>login</Link></li>
       <li><Link to='/dashboard'>dashboard</Link></li>
+      <li><Link to='/user/1'>user 1</Link></li>
+      <li><Link to='/user/2'>user 2</Link></li>
       </ol>
     </div>
   )
