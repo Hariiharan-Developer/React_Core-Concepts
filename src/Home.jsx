@@ -21,6 +21,8 @@ const Home = () => {
       <li><Link to='/form'>form</Link></li>
       <li><Link to='/books/oldbooks'>old book</Link></li>
       <li><Link to='/books/newbooks'>new books</Link></li>
+      <li><Link to='/login'>login</Link></li>
+      <li><Link to='/dashboard'>dashboard</Link></li>
       </ol>
     </div>
   )

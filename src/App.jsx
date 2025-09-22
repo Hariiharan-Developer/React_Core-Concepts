@@ -16,6 +16,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import OldBook from './components/14.nestedRoute/OldBook'
 import NewBook from './components/14.nestedRoute/NewBook'
+import Dashboard from './components/15.login/Dashboard'
+import Login from './components/15.login/Login'
 
 
 const App = () => {
@@ -42,6 +44,8 @@ const App = () => {
         <Route path='oldbooks' element={<OldBook/>}/>
         <Route path='newbooks' element={<NewBook/>}/>
         </Route>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
       </BrowserRouter>
        </div>
