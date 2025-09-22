@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
+import { useParams } from 'react-router-dom'
 
 const Form = () => {
-
+  const {id} = useParams()
     const [name,setName] = useState('')
     const [submitName,setSubmitName] = useState('')
     const [fname,setFname] = useState('')

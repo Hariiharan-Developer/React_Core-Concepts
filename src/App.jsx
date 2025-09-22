@@ -12,24 +12,32 @@ import Score from './components/10.scoreTask/Score'
 import Test from './components/11.test/Test'
 import UseEffect from './components/12.useEffect/UseEffect'
 import Form from './components/13.form/Form'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './Home'
 
 
 const App = () => {
   return (
     <div>
-    {/* <Component/>
-    <ProfileCard/> */}
-    {/* <ConditionalRender/> */}
-    {/* <List/> */}
-    {/* <Style/> */}
-   {/* <State/> */}
-   {/* <MultipleState/> */}
-   {/* <ArrayState/> */}
-   {/* <TaskHobbie/> */}
-   {/* <Score/> */}
-   {/* <Test/> */}
-   {/* <UseEffect/> */}
-   <Form/>
+      <BrowserRouter>
+      <Home/>
+      <Routes>
+        
+        <Route path='/component' element={<Component/>}/>
+        <Route path='/profile_card' element={<ProfileCard/>}/>
+        <Route path='/conditional_rendering' element={<ConditionalRender/>}/>
+        <Route path='/list' element={<List/>}/>
+        <Route path='/style' element={<Style/>}/>
+        <Route path='/state' element={<State/>}/>
+        <Route path='/multipl_State' element={<MultipleState/>}/>
+        <Route path='/array' element={<ArrayState/>}/>
+        <Route path='/task' element={<TaskHobbie/>}/>
+        <Route path='/score' element={<Score/>}/>
+        <Route path='/test' element={<Test/>}/>
+        <Route path='/useEffect' element={<UseEffect/>}/>
+        <Route path='/form' element={<Form/>}/>
+      </Routes>
+      </BrowserRouter>
        </div>
   )
 }
